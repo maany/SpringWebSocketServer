@@ -8,13 +8,21 @@ import java.util.List;
  */
 public class TrackData {
     private List positions;
-
+    private List parameters;
     public List getPositions() {
         return positions;
     }
 
     public void setPositions(List positions) {
         this.positions = positions;
+    }
+
+    public List getParameters() {
+        return parameters;
+    }
+
+    public void setParameters(List parameters) {
+        this.parameters = parameters;
     }
 }
 /*class Position{
